@@ -51,9 +51,9 @@ const checkAge = (age) => {
   alert('You are ' + age + ' years old!!');
 
   if ( checkAge(age) ) {
-    alert( 'Access granted, you are good to enter!' );
+    alert( 'Welcome!!!, access granted you are able to enter the site!' );
   } else {
-    alert( 'Access denied, come back when you are of age!' );
+    alert( 'Sorry ccess is denied, you are not old enough to enter!' );
   }
 
 // /*** Exercise 4 Temperature in Fahrenheit */
