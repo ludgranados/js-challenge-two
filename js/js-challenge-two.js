@@ -64,17 +64,26 @@ const checkAge = (age) => {
 function cToF(celsius)
 {
   var cTemp = celsius;
-  var cToFahr = cTemp * 1.8 + 32;
+  var cToFahr = cTemp * 1.8 + tempNumber;
   var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
-    console.log(message);
+
+  console.log(message);
+    alert(cToFahr + '˚F');
+
 }
+
+let tempNumber = parseInt(prompt('Enter a temperature: '));
+alert('The given temperature is',);
 
 function fToC(fahrenheit)
 {
   var fTemp = fahrenheit;
-  var fToCel = (fTemp - 32) * 1.8;
+  var fToCel = (fTemp - tempNumber) * 1.8;
   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-    console.log(message);
+
+  console.log(message);
+  alert(fToCel + '˚C');
+
 }
 cToF(60);
 fToC(45);
@@ -121,3 +130,8 @@ function answerNumber() {
 // }
 // };
 // answerNumber();
+
+
+/*** Exercise 6 */
+
+
